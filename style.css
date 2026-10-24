@@ -1,32 +1,87 @@
 * {
-    background-color: antiquewhite;
+
     margin: 0;
     padding: 0;
+    margin-top: 15px;
     box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, lightblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {
+    display: inline;
+    border: 1px solid;
+    margin-left: 2vh;
+    padding: 10px;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    background: linear-gradient(33deg, rgb(148, 211, 232), white);
+    color: rgb(7, 84, 126);
 
 }
 
-.design {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    margin-left: 25vh;
-    border: 3px, solid black;
-    display: inline-block;
-    position: fixed;
-
+.menu {
+    display: inline;
+    margin-left: 70vh;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: lightblue;
+    border-radius: 25px;
+    padding: 15px;
 }
 
-.design img {
-    height: 62vh;
-    width: 35vw;
-    margin-bottom: -2vh;
+#info {
+    margin-right: 15px;
 }
 
-.design button {
-    height: 11vh;
-    width: 35vw;
-    display: block;
-    background: linear-gradient(45deg, rgb(69, 211, 69), rgb(77, 180, 227));
-    font-size: 3vh;
+#user {
+    display: inline;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    margin-left: 60vh;
+    padding: 10px;
+    background: linear-gradient(33deg, rgb(148, 211, 232), white);
+    color: rgb(7, 84, 126);
+}
+
+.hero {
+
+    display: inline;
+
+    font-size: 20px;
+}
+
+.hero-left {
+    color: rgb(5, 54, 100);
+    margin-top: -35vh;
+    margin-left: 85vh;
+}
+
+#only-spac {
+    margin-left: 10vh;
+}
+
+#para {
+    color: rgb(6, 137, 167);
+}
+
+.service {
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: 10px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 5vh;
     color: white;
+    background-color: rgb(33, 142, 209)
+}
+
+.hero-right {
+    margin-top: 25vh;
+    margin-left: 30vh;
 }
