@@ -1,87 +1,110 @@
 * {
-
-    margin: 0;
     padding: 0;
-    margin-top: 15px;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to bottom, lightblue, white);
+    background: linear-gradient(rgb(131, 208, 234), white);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin-top: 1%;
+
 }
 
+
 #logo {
-    display: inline;
+    display: inline-block;
+
     border: 1px solid;
-    margin-left: 2vh;
-    padding: 10px;
-    border-radius: 25px;
-    border-color: whitesmoke;
-    background: linear-gradient(33deg, rgb(148, 211, 232), white);
-    color: rgb(7, 84, 126);
+    padding: 8px;
+    border-radius: 25vw;
+    background-color: rgb(48, 185, 231);
+    border-color: lightblue;
+    color: white;
 
 }
 
 .menu {
-    display: inline;
-    margin-left: 70vh;
-    font-size: 20px;
+    display: inline-block;
+    margin-left: 35vw;
     border: 1px solid;
-    border-color: lightblue;
-    border-radius: 25px;
-    padding: 15px;
+    border-color: rgb(23, 178, 229);
+    padding: 8px;
+    border-radius: 25vw;
+
 }
 
-#info {
+.menu a {
     margin-right: 15px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
 
-#user {
-    display: inline;
+#a:hover {
+    background-color: rgb(36, 178, 221);
+}
+
+#username {
+    display: inline-block;
+    margin-left: 25vw;
     border: 1px solid;
-    border-radius: 25px;
-    border-color: whitesmoke;
-    margin-left: 60vh;
-    padding: 10px;
-    background: linear-gradient(33deg, rgb(148, 211, 232), white);
-    color: rgb(7, 84, 126);
+    padding: 8px;
+    border-radius: 25vw;
+    background-color: rgb(48, 185, 231);
+    border-color: lightblue;
+    color: white;
 }
 
 .hero {
-
-    display: inline;
-
-    font-size: 20px;
+    align-items: center;
+    margin-top: 43vh;
 }
 
 .hero-left {
-    color: rgb(5, 54, 100);
-    margin-top: -35vh;
-    margin-left: 85vh;
+    float: left;
+    margin-left: 20vw;
+    font-size: 15px;
 }
 
-#only-spac {
-    margin-left: 10vh;
-}
-
-#para {
-    color: rgb(6, 137, 167);
-}
-
-.service {
-    border: 1px solid;
-    border-radius: 25px;
-    border-color: 10px;
-    padding: 15px;
-    font-size: 20px;
-    margin-left: 5vh;
-    color: white;
-    background-color: rgb(33, 142, 209)
-}
 
 .hero-right {
-    margin-top: 25vh;
-    margin-left: 30vh;
+    margin-right: 30vw;
+
+}
+
+.hero-right img {
+    width: 25%;
+    height: 40%;
+    float: right;
+    position: fixed;
+
+
+}
+
+.hero-left h1 {
+    color: rgb(4, 48, 107);
+
+}
+
+.hero-left span {
+    margin-left: 95px;
+}
+
+.hero-left p {
+    color: rgb(24, 128, 202);
+    margin-top: 15px;
+}
+
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 10vw;
+    border-radius: 25vw;
+    background-color: rgb(48, 185, 231);
+    color: white;
 }
