@@ -58,13 +58,16 @@ body {
 
 .hero {
     align-items: center;
-    margin-top: 43vh;
+    margin-top: 15rem;
+    margin-left: 8rem;
 }
 
 .hero-left {
     float: left;
     margin-left: 20vw;
     font-size: 15px;
+
+    padding-top: 8rem;
 }
 
 
@@ -75,10 +78,9 @@ body {
 
 .hero-right img {
     width: 25%;
-    height: 40%;
+    height: 50%;
     float: right;
-    position: fixed;
-
+    position: absolute;
 
 }
 
