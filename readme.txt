@@ -1,6 +1,7 @@
 hello!
 I am Jayesh khatri 
-I complete tasks 7 with your guidance and you rules.
-but there is a problem in image size when i use media querier to set image width,height.
-it didn't work because of some  baseline rules .
+I complete tasks 8 with your guidance and you rules.using media queries and pseudo classes
+but i can not re-create my web page also get some problem like hover can't be apply  on menu list and also.
+some menu-list problem i can't able to create same as you can.
+
   

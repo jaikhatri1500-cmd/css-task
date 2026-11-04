@@ -19,6 +19,30 @@ body {
 
 }
 
+
+
+.hamburger {
+    display: none;
+    margin: 0;
+    border: none;
+    background-color: white;
+    align-items: center;
+    color: black;
+
+}
+
+.hamburger:focus {
+    background-color: white;
+    border: none
+}
+
+
+
+#hide-menu {
+    display: none;
+
+}
+
 #logo {
     display: flex;
     border: 1px solid;
@@ -29,20 +53,6 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 780px) {
-    .hide {
-        display: none;
-        border: none;
-    }
-
-    #logo {
-        font-size: 10px;
-    }
-
-    #username {
-        font-size: 10px;
-    }
-}
 
 #menu {
 
@@ -79,39 +89,6 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
-    .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5rem;
-        margin-left: 0;
-    }
-
-    .hero-left {
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .hero-left h1,
-    .hero-left span,
-    .hero-left p {
-        font-size: 13px;
-    }
-
-    .hero-right {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-right: 0;
-    }
-
-    .hero-right img {
-        object-fit: contain;
-
-    }
-}
 
 .hero {
 
@@ -139,11 +116,9 @@ body {
 
 .hero-right img {
     display: flex;
-    width: 25%;
+    width: 300%;
     height: 50%;
-    float: right;
-    position: absolute;
-
+    object-fit: contain;
 }
 
 
@@ -172,4 +147,133 @@ button {
     border-radius: 25vw;
     background-color: rgb(48, 185, 231);
     color: white;
+}
+
+@media screen and (max-width: 1300px) {
+
+    #logo {
+        font-size: 20px;
+        justify-content: start;
+    }
+
+    #username {
+        font-size: 20px;
+    }
+
+    .hero-right img {
+        width: 70%;
+        height: 50%;
+        object-fit: contain;
+        position: absolute;
+
+    }
+
+    .hero-left {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .hero-left h1,
+    .hero-left span,
+    .hero-left p {
+        font-size: 25px;
+
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .hide {
+        display: none;
+        border: none;
+    }
+
+    #logo {
+        font-size: 10px;
+    }
+
+    #username {
+        font-size: 10px;
+    }
+
+    .hero-right img {
+        width: 70%;
+        height: 50%;
+        object-fit: contain;
+        position: absolute;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        margin-left: 0;
+    }
+
+    .hero-left {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .hero-left h1,
+    .hero-left span,
+    .hero-left p {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .hero-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .hero-right img {
+        width: 70%;
+        height: 50%;
+        object-fit: contain;
+
+    }
+
+    /*hamburger*/
+    .hamburger {
+        display: flex;
+        align-items: center;
+        color: black;
+
+    }
+
+
+
+    .hamburger:focus+#hide-menu {
+        display: grid;
+        height: 500%;
+        width: 40%;
+        background-color: rgb(48, 185, 231);
+
+
+
+    }
+
+    #hide-menu #m {
+        display: flex;
+        justify-content: end;
+        padding-right: 10px;
+        text-decoration: none;
+        color: white
+    }
+
+
+
+
 }
