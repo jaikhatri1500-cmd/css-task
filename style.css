@@ -114,12 +114,36 @@ body {
 
 }
 
+.hero-right:hover {
+    animation-name: effect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes effect {
+    from {
+        transform: rotate(0deg) translateY(50px) rotate(0deg) scaleX(1);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(50px) rotate(-360deg) scaleX(1.25);
+    }
+}
+
 .hero-right img {
     display: flex;
     width: 300%;
     height: 50%;
     object-fit: contain;
+
 }
+
+
+
+
+
+
 
 
 .hero-left h1 {
